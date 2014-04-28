@@ -37,7 +37,7 @@
 
         <section id="main">
           {{outlet}}
-
+          {{input type="checkbox" id="toggle-all" checked=allAreDone}}
           <input type="checkbox" id="toggle-all">
         </section>
 
@@ -78,5 +78,7 @@
     <script src="js/controllers/todos_controller.js"></script>
     <script src="js/controllers/todo_controller.js"></script>
     <script src="js/views/edit_todo_view.js"></script>
+    <script src="js/libs/ember-data.js"></script>
+    <script src="js/libs/localstorage_adapter.js"></script>
   </body>
 </html>
